@@ -1,0 +1,94 @@
+body {
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  color: #444;
+}
+
+header {
+  position: fixed;
+  top: 10px;
+  width: 100%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  color: #666;
+}
+
+section {
+  margin-top: 200px;
+  text-align: center;
+}
+
+ul {
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
+ul.header-nav, ul.footer-nav2 {
+  float: right;
+}
+
+ul.footer-nav1 {
+  float: left;
+}
+
+li {
+  padding-left: 13px;
+  padding-right: 13px;
+  display: inline;
+}
+
+ul.header-nav li {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+input {
+  border: 1px solid #ddd;
+  border-radius: 0px;
+  padding: 12px;
+  margin-top: 25px;
+  width: 480px;
+  background-color: white;
+}
+
+input:hover {
+  border: 1px solid #aaa;
+}
+
+input:active, input:focus {
+  border: 1px solid #58e;
+}
+
+button {
+  color: #777;
+  font-weight: bold;
+  padding: 11px 19px;
+  margin: 30px 2px;
+  border: 2px;
+  border-radius: 0px;
+  background-color: #f3f3f3;
+}
+
+#sign-in {
+  font-weight: bolder;
+  border: 0px;
+  border-radius: 2px;
+  padding: 7px 13px;
+  color: white;
+  background-color: #58e;
+}
